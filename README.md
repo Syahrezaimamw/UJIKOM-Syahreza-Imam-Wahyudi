@@ -6,7 +6,7 @@
 **Sistem Peminjaman Kendaraan** adalah sebuah Website responsif yang dirancang untuk memudahkan pengelolaan data Peminjaman Kendaraan dan sistem approval yang dapat diakses admin dan user/client menggunakan React JS. Website ini memungkinkan Admin untuk memanage data peminjaman dengan lebih cepat dan efisian secara ofline (dengan data user yang telah tersedia) atau mengelola peminjaman secara online dengan user melakukan login dan meminta request, lalu admin menerima atau menolak.
 
 ## Notes
-**Untuk Melihat setiap halaman bisa masuk kemasin-masing folder (BacenkEnd / FrontEnd)
+**Untuk Melihat preview dan penjelasan lebih lengkap, setiap halaman bisa masuk kemasin-masing folder (BacenkEnd / FrontEnd)**
 
 **Project FullStack**
 **FrontEnd**
