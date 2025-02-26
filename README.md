@@ -8,7 +8,7 @@
 ## Notes
 **Untuk Melihat preview dan penjelasan lebih lengkap, setiap halaman bisa masuk kemasin-masing folder (BacenkEnd / FrontEnd)**
 
-**Project FullStack**
+## Project FullStack
 **FrontEnd**
 <br/>
 --**public** 
