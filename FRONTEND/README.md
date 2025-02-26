@@ -1,7 +1,5 @@
-# WEBSITE ADMIN KELOLA PEMINJAMAN KENDARAAN
+# WEBSITE PEMINJAMAN KENDARAAN
 <br>
-
-## Link BE Terakhir di update rabu malam
 
 ## Deskripsi Projek 
 
