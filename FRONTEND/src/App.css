@@ -1,0 +1,134 @@
+.custom-scrollbar::-webkit-scrollbar {
+    display: none;
+  }
+
+  /* Untuk Firefox */
+  .custom-scrollbar {
+    scrollbar-width: none; /* Firefox */
+  }
+
+  /* Tetap memungkinkan scroll dengan menyembunyikan scrollbar */
+  .custom-scrollbar {
+    -ms-overflow-style: none; /* IE 10+ */
+    overflow-y: scroll;
+  }
+
+
+  
+  .css-4ljt47-MenuList {
+    scrollbar-width: none; /* Scrollbar yang lebih tipis (Firefox) */
+    scrollbar-color: rgb(38, 198, 218) #f3e8ff; /* Warna scrollbar untuk Firefox */
+  }
+  
+  /* Scrollbar untuk WebKit (Chrome, Safari, Edge) */
+  .css-4ljt47-MenuList::-webkit-scrollbar {
+    width: 8px; /* Lebar scrollbar */
+  }
+  
+  .css-4ljt47-MenuList::-webkit-scrollbar-track {
+    background: #f3e8ff; /* Warna track (background dari scrollbar) */
+  }
+  
+  .css-4ljt47-MenuList::-webkit-scrollbar-thumb {
+    background-color: #6b52ae; /* Warna scrollbar */
+    border-radius: 10px; /* Radius untuk membuat sudut membulat */
+    border: 2px solid #f3e8ff; /* Border di sekitar thumb scrollbar */
+  }
+  
+
+
+
+  .testimonial-wrapper {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+  }
+  
+  .testimonial-section {
+    text-align: center;
+    padding: 2rem;
+    background: linear-gradient(135deg, #00aaff, #4d91ff);
+    color: white;
+    border-radius: 10px;
+    width: 100%;
+    max-width: 600px;
+  }
+  
+  .testimonial-card {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+  }
+  
+  .testimonial-image {
+    width: 80px;
+    height: 80px;
+    border-radius: 50%;
+    margin-bottom: 1rem;
+  }
+  
+  .testimonial-content h3 {
+    font-size: 1.2rem;
+    font-weight: bold;
+    margin-bottom: 0.5rem;
+  }
+  
+  .testimonial-content p {
+    font-size: 0.9rem;
+    color: #cfcfcf;
+  }
+  
+  blockquote {
+    font-style: italic;
+    margin-top: 1rem;
+  }
+  
+  .testimonial-buttons {
+    margin-top: 1rem;
+    display: flex;
+    gap: 1rem;
+  }
+  
+  .testimonial-buttons button {
+    background-color: #007acc;
+    color: #ffffff;
+    border: none;
+    padding: 0.5rem 1.5rem;
+    font-size: 1rem;
+    font-weight: bold;
+    border-radius: 5px;
+    cursor: pointer;
+    transition: background-color 0.3s ease;
+  }
+  
+  .testimonial-buttons button:hover {
+    background-color: #4182ab;
+  }
+
+  .swiper-pagination-bullet {
+    width: 0px;
+    height: 12px;
+    background-color: rgba(255, 255, 255, 0.5); 
+    opacity: 0;
+    transition: background-color 0.3s ease;
+  }
+  
+  /* Styling for active or focused pagination dots */
+  .swiper-pagination-bullet-active,
+  .swiper-pagination-bullet:focus {
+    background-color: #ffffff; /* Warna dot saat focus atau active */
+    opacity: 1;
+    
+  }
+  .swiper-pagination-bullet{
+    background-color: red;
+  }
+  
+  .swiper-pagination-bullet {
+    @apply w-3 h-3 transition-all duration-300 bg-white rounded-full opacity-70; /* Ukuran, warna, dan animasi */
+  }
+  
+  /* Styling for active dot */
+  .swiper-pagination-bullet-active {
+    @apply w-4 h-4 bg-white opacity-100; /* Warna dan ukuran dot aktif */
+  }
