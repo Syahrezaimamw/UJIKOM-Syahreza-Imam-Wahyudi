@@ -3,7 +3,7 @@
 
 ## Deskripsi Projek 
 
-**Sistem Penyewaan Kendaraan** adalah sebuah Website responsif yang dirancang untuk memudahkan pengelolaan data Penyewaan Kendaraan dan sistem approval yang dapat diakses admin dan user/client menggunakan React JS. Website ini memungkinkan Admin untuk memanage data Penyewaan dengan lebih cepat dan efisian secara ofline (dengan data user yang telah tersedia) atau mengelola Penyewaan secara online dengan user melakukan login dan meminta request, lalu admin menerima atau menolak.
+**WEBSITE SISTEM APPROVAL DAN MANAJEMEN KELOLA PENYEWAAN KENDARAAN** adalah sebuah Website responsif yang dirancang untuk memudahkan pengelolaan data Penyewaan Kendaraan dan sistem approval yang dapat diakses admin dan user/client menggunakan React JS. Website ini memungkinkan Admin untuk memanage data Penyewaan dengan lebih cepat dan efisian secara ofline (dengan data user yang telah tersedia) atau mengelola Penyewaan secara online dengan user melakukan login dan meminta request, lalu admin menerima atau menolak.
 
 ## Notes
 **Untuk Melihat preview dan penjelasan Frontend dan Backend lebih lengkap, bisa masuk kemasing-masing folder (BacenkEnd / FrontEnd)**
