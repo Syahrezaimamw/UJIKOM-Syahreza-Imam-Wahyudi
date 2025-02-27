@@ -1,53 +1,53 @@
-# WEBSITE  PEMINJAMAN KENDARAAN
+# WEBSITE SISTEM APPROVAL DAN MANAJEMEN KELOLA PENYEWAAN KENDARAAN
 <br>
 
 ## Deskripsi Projek 
 
-**Sistem Peminjaman Kendaraan** adalah sebuah Website responsif yang dirancang untuk memudahkan pengelolaan data Peminjaman Kendaraan dan sistem approval yang dapat diakses admin dan user/client menggunakan React JS. Website ini memungkinkan Admin untuk memanage data peminjaman dengan lebih cepat dan efisian secara ofline (dengan data user yang telah tersedia) atau mengelola peminjaman secara online dengan user melakukan login dan meminta request, lalu admin menerima atau menolak.
+**Sistem Penyewaan Kendaraan** adalah sebuah Website responsif yang dirancang untuk memudahkan pengelolaan data Penyewaan Kendaraan dan sistem approval yang dapat diakses admin dan user/client menggunakan React JS. Website ini memungkinkan Admin untuk memanage data Penyewaan dengan lebih cepat dan efisian secara ofline (dengan data user yang telah tersedia) atau mengelola Penyewaan secara online dengan user melakukan login dan meminta request, lalu admin menerima atau menolak.
 
 ## Notes
-**Untuk Melihat preview dan penjelasan lebih lengkap, setiap halaman bisa masuk kemasin-masing folder (BacenkEnd / FrontEnd)**
+**Untuk Melihat preview dan penjelasan Frontend dan Backend lebih lengkap, bisa masuk kemasing-masing folder (BacenkEnd / FrontEnd)**
 
-## Project FullStack
-**FrontEnd**
+📂## Project FullStack
+📂**FrontEnd**
 <br/>
---**public** 
+--📂**public** 
 <br/>
---**src** 
+--📂**src** 
 <br/>
-  ----**components** ( untuk Membuat component yang reusable )
+  ----📂**components** ( untuk Membuat component yang reusable )
 <br/>
-  ----**image** ( menyimpan aset aset gambar )
+  ----📂**image** ( menyimpan aset aset gambar )
 <br/>
-  ----**landingPageComp** ( membuat component untuk landing page )
+  ----📂**landingPageComp** ( membuat component untuk landing page )
 <br/>
-  ----**service** ( membuat file meyimpan logic consum api )
+  ----📂**service** ( membuat file meyimpan logic consum api )
 <br/>
-  ----**template** ( Membuat file template )
+  ----📂**template** ( Membuat file template )
 <br/>
-  ----**user** ( file main untuk user side / client side )
+  ----📂**user** ( file main untuk user side / client side )
 
-**BackEnd**
+📂**BackEnd**
 <br/>
-  --**controller** (untuk Membuat fungsi tiap tabel)
+  --📂**controller** (untuk Membuat fungsi tiap tabel)
 <br/>
-  --**message** ( template yang digunakan untuk response hasil )
+  --📂**message** ( template yang digunakan untuk response hasil )
 <br/>
-  --**middleware** ( membuat function verifikasi token )
+  --📂**middleware** ( membuat function verifikasi token )
 <br/>
-  --**model** ( membuat setiap tabel )
+  --📂**model** ( membuat setiap tabel )
 <br/>
-  --**public**
+  --📂**public**
 <br/>
-  -----**image** ( menyimpan gambar yang diinput )
+  -----📂**image** ( menyimpan gambar yang diinput )
 <br/>
-  --**router** ( Membuat logic router setiap tabel )
+  --📂**router** ( Membuat logic router setiap tabel )
 <br/>
-  --**seeders** ( untuk memberi default value )
+  --📂**seeders** ( untuk memberi default value )
 <br/>
-  --**utils** ( menghubungkan server ke database )
+  --📂**utils** ( menghubungkan server ke database )
 <br/>
---**index.js** ( file untuk route inti )
+--📂**index.js** ( file untuk route inti )
 
 
 ## Kontribusi
