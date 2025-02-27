@@ -1,11 +1,11 @@
-# RESTFULL API KELOLA PEMINJAMAN KENDARAAN
+# RESTFULL API MANAJEMEN DAN SISTEM APPROVAL PENYEWAAN KENDARAAN
 <br>
 
 ## Berjalan di http://localhost:3100/
 
 ## Deskripsi Projek 
 
-**API Kelola Peminjaman Kendaraan** adalah sebuah Rest Full API yang dirancang untuk memudahkan pengelolaan data peminjaman kendaraan menggunakan Express JS sebagai framework dan sequelize dalam pemilihan orm di Node.js. API ini memungkinkan pengguna untuk melakukan operasi CRUD (Create, Read, Update, Delete) pada user, admin, kendaraan, peminjaman dan pengembalian, dan notification (sebut saja request, tabel untuk menangani request user yang ingin meminjam).
+**API Kelola Penyewaan Kendaraan** adalah sebuah Rest Full API yang dirancang untuk memudahkan pengelolaan data peminjaman kendaraan menggunakan Express JS sebagai framework dan sequelize dalam pemilihan orm di Node.js. API ini memungkinkan pengguna untuk melakukan operasi CRUD (Create, Read, Update, Delete) pada user, admin, kendaraan, peminjaman dan pengembalian, dan notification (sebut saja request, tabel untuk menangani request user yang ingin meminjam).
 
 
 ## Fitur
@@ -37,9 +37,9 @@
   - **Delete**: Perbarui informasi Notifikasi yang sudah terdaftar.
 
 - **CRUD Peminjaman**: 
-  - **Create**: Daftarkan Peminjaman baru dengan informasi lengkap.
-  - **Read**: Ambil detail Peminjaman atau daftar semua Peminjaman.
-  - **Update**: Perbarui informasi Peminjaman yang sudah terdaftar.
+  - **Create**: Daftarkan Penyewaan baru dengan informasi lengkap.
+  - **Read**: Ambil detail Penyewaan atau daftar semua Penyewaan.
+  - **Update**: Perbarui informasi Penyewaan yang sudah terdaftar.
 
 - **CRUD Pengembalian**: 
   - **Create**: Daftarkan Pengembalian baru dengan informasi lengkap.
@@ -149,25 +149,25 @@
 <br>
 
 ## Strukture Folder
-**BackEnd**
+📂 **BackEnd**
 <br/>
-  --**controller** (untuk Membuat fungsi tiap tabel)
+  --📂 **controller** (untuk Membuat fungsi tiap tabel)
 <br/>
-  --**message** ( template yang digunakan untuk response hasil )
+  --📂 **message** ( template yang digunakan untuk response hasil )
 <br/>
-  --**middleware** ( membuat function verifikasi token )
+  --📂 **middleware** ( membuat function verifikasi token )
 <br/>
-  --**model** ( membuat setiap tabel )
+  --📂 **model** ( membuat setiap tabel )
 <br/>
-  --**public**
+  --📂 **public**
 <br/>
-  -----**image** ( menyimpan gambar yang diinput )
+  -----📂 **image** ( menyimpan gambar yang diinput )
 <br/>
-  --**router** ( Membuat logic router setiap tabel )
+  --📂 **router** ( Membuat logic router setiap tabel )
 <br/>
-  --**seeders** ( untuk memberi default value )
+  --📂 **seeders** ( untuk memberi default value )
 <br/>
-  --**utils** ( menghubungkan server ke database )
+  --📂 **utils** ( menghubungkan server ke database )
 <br/>
 --**index.js** ( file untuk route inti )
 
@@ -178,7 +178,7 @@
 
 ## Hal Yang Berkaitan
 
-Beberapa Contoh Gambar Yang Berkaitan Terkait Projek REST FULL API Manajemen Peminjaman Kendaraan
+Beberapa Contoh Gambar Yang Berkaitan Terkait Projek REST FULL API Manajemen Penyewaan Kendaraan
 
 - **Class Diagram**
 <img src="./image/classdiagram (2).png" />
@@ -190,8 +190,19 @@ Beberapa Contoh Gambar Yang Berkaitan Terkait Projek REST FULL API Manajemen Pem
 - **Relasi Table**
 <img src="./image/useCase.png" />
 
-<br>
+<br/>
 
+**Ruang Request / Notification**
+\
+Users (1) ------> (n) Notification
+\
+Kendaraan (1) ------> (n) Notification
+
+**Pengembalian**
+\
+Peminjaman (1) ------> (1) Pengembalian
+
+<br/>
 
 ## NOTES
 
