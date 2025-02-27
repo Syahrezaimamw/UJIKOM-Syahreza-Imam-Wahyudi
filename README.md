@@ -8,8 +8,7 @@
 ## Notes
 **Untuk Melihat preview dan penjelasan Frontend dan Backend lebih lengkap, bisa masuk kemasing-masing folder (BacenkEnd / FrontEnd)**
 
-📂 ## Project FullStack
-\
+📂 ##Project FullStack
 📂**FrontEnd**
 <br/>
 --📂**public** 
