@@ -187,7 +187,7 @@ Beberapa Contoh Gambar Yang Berkaitan Terkait Projek REST FULL API Manajemen Pen
 <img src="./image/erd22.png" />
 
 
-- **Relasi Table**
+- **Use Case**
 <img src="./image/useCase.png" />
 
 <br/>
