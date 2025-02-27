@@ -1,9 +1,9 @@
-# WEBSITE PEMINJAMAN KENDARAAN
+# WEBSITE PENYEWAAN KENDARAAN
 <br>
 
 ## Deskripsi Projek 
 
-**Sistem Peminjaman Kendaraan** adalah sebuah Website responsif yang dirancang untuk memudahkan pengelolaan data Peminjaman Kendaraan dan sistem approval yang dapat diakses admin dan user/client menggunakan React JS. Website ini memungkinkan Admin untuk memanage data peminjaman dengan lebih cepat dan efisian secara ofline (dengan data user yang telah tersedia) atau mengelola peminjaman secara online dengan user melakukan login dan meminta request, lalu admin menerima atau menolak.
+**Sistem Penyewaan Kendaraan** adalah sebuah Website responsif yang dirancang untuk memudahkan pengelolaan data Penyewaan Kendaraan dan sistem approval yang dapat diakses admin dan user/client menggunakan React JS. Website ini memungkinkan Admin untuk memanage data peminjaman dengan lebih cepat dan efisian secara ofline (dengan data user yang telah tersedia) atau mengelola Penyewaan secara online dengan user melakukan login dan meminta request, lalu admin menerima atau menolak.
 
 
 ## Dependecies / Teknologi yang digunakan
@@ -71,23 +71,23 @@
     
 
 ## Strukture Folder
-**FrontEnd**
+📂**FrontEnd**
 <br/>
---**public** 
+--📂**public** 
 <br/>
---**src** 
+--📂**src** 
 <br/>
-  ----**components** ( untuk Membuat component yang reusable )
+  ----📂**components** ( untuk Membuat component yang reusable )
 <br/>
-  ----**image** ( menyimpan aset aset gambar )
+  ----📂**image** ( menyimpan aset aset gambar )
 <br/>
-  ----**landingPageComp** ( membuat component untuk landing page )
+  ----📂**landingPageComp** ( membuat component untuk landing page )
 <br/>
-  ----**service** ( membuat file meyimpan logic consum api )
+  ----📂**service** ( membuat file meyimpan logic consum api )
 <br/>
-  ----**template** ( Membuat file template )
+  ----📂**template** ( Membuat file template )
 <br/>
-  ----**user** ( file main untuk user side / client side )
+  ----📂**user** ( file main untuk user side / client side )
 
 
 
